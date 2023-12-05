@@ -73,4 +73,5 @@ const decodeMorse = function (morseCode) {
   return sentense.join(" ");
 };
 
-console.log(decodeMorse(".... . -.--   .--- ..- -.. ."));
+// console.log(decodeMorse(".... . -.--   .--- ..- -.. ."));
+export default decodeMorse;
